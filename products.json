@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1", 
+    "title": "Dell Inspiron",
+    "price": 24000
+  },
+  {
+    "id": "2",
+    "title": "HP Pavilion",
+    "price": 30000
+  },
+  {
+    "id": "3",
+    "title": "Lenovo ThinkPad X1 Carbon",
+    "price": 85000
+  },
+  {
+    "id": "4",
+    "title": "Asus ROG Zephyrus G14",
+    "price": 120000
+  },
+  {
+    "id": "5",
+    "title": "Apple MacBook Air",
+    "price": 95000
+  },
+  {
+    "id": "6",
+    "title": "Microsoft Surface Laptop 4",
+    "price": 90000
+  },
+  {
+    "id": "7",
+    "title": "Acer Swift 3",
+    "price": 45000
+  },
+  {
+    "id": "8",
+    "title": "Razer Blade 15",
+    "price": 150000
+  },
+  {
+    "id": "9",
+    "title": "Google Pixelbook Go",
+    "price": 70000
+  },
+  {
+    "id": "10",
+    "title": "Samsung Galaxy Book Flex",
+    "price": 110000
+  }
+]

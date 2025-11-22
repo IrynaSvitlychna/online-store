@@ -1,0 +1,50 @@
+body {
+  display: flex;
+}
+
+.cart-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 20px;
+  list-style: none;
+
+  li {
+    border: 1px solid #bbb;
+    box-shadow: 2px 3px 4px #999;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  button {
+    width: 30%;
+    height: 10%;
+  }
+}
+
+.cart {
+  background: #eee;
+  flex-grow: 1;
+
+  :not(:has(:checked)) + & {
+    display: none;
+  }
+}
