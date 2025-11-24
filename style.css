@@ -1,5 +1,6 @@
 body {
   display: flex;
+  justify-content: space-between;
 }
 
 .cart-btn {
@@ -42,9 +43,36 @@ body {
 
 .cart {
   background: #eee;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  margin-left: -1000px;
 
   :not(:has(:checked)) + & {
     display: none;
+  }
+
+  .products {
+    grid-template-columns: unset;
+
+    li {
+      display: flex;
+      align-items: center;
+      height: 50px;
+    }
+
+    img {
+      height: 100%;
+    }
+
+    h4 {
+      width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex-shrink: 0;
+    }
+
+    button {
+      height: unset;
+      width: unset;
+    }
   }
 }
